@@ -1,5 +1,5 @@
 # __Balancer__
----
+
 Файл client.sh - это файл с настройками доступа к API из ЛК в облаке с заполненным полем C2_PROJECT.
 Файлы client.sh, main.py, start.sh должны быть исполняемыми (chmod +x filename)
 
