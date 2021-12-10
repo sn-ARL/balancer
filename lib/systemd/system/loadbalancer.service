@@ -1,0 +1,11 @@
+[Unit]
+Description=LoadBalancer Script
+
+[Service]
+WorkingDirectory=/home/user/balancer
+ExecStart=/home/user/balancer/start.sh
+Type=idle
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
