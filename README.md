@@ -1,14 +1,14 @@
 # __Balancer__
 
 Файл client.sh - это файл с настройками доступа к API из ЛК в облаке с заполненным полем C2_PROJECT.
-Файлы client.sh, main.py, start.sh должны быть исполняемыми (chmod +x filename)
+Файлы client.sh, main.py, start.sh должны быть исполняемыми (_chmod +x filename_)
 
 В файле /lib/systemd/system/loadbalancer.service необходимо изменить путь до директории balancer
 После этого необходимо перенести файл в директорию, согласно его названию.
 Далее ввести следующие команды:
-* sudo systemctl daemon-reload
-* sudo systemctl enable loadbalancer.service
-* sudo systemctl start loadbalancer.service
+* _sudo systemctl daemon-reload_
+* _sudo systemctl enable loadbalancer.service_
+* _sudo systemctl start loadbalancer.service_
 
 
 Перед запуском скрипта необходимо изменить данные в конфигурационном файле cfg.py. 
